@@ -12,9 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>
-          Welcome to chrono
-        </h1>
+        <h1>Welcome to chrono</h1>
 
         <p>
           Get started by editing <code>pages/index.js</code>
