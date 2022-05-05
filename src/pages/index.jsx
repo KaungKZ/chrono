@@ -11,8 +11,13 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
+<<<<<<< HEAD
 			<main>
 				<h1>Welcome to chrono</h1>
+=======
+      <main>
+        <h1>Welcome to chrono</h1>
+>>>>>>> 0e12d71e892686bfd419605a5444f72aa3d761b4
 
 				<p>
 					Get started by editing <code>pages/index.js</code>
