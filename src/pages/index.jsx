@@ -13,7 +13,7 @@ export default function Home() {
 
       <main>
         <h1>
-          Welcome to <a href="https://nextjs.org">Next.js with tailwind</a>
+          Welcome to chrono
         </h1>
 
         <p>
