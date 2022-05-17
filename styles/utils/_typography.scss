@@ -1,0 +1,69 @@
+@layer base {
+  @font-face {
+    font-family: "DM-Sans";
+    font-weight: 400;
+    src: url("/assets/fonts/dm-sans/dmsans-regular-webfont.eot");
+    src: url("/assets/fonts/dm-sans/dmsans-regular-webfont.eot?#iefix")
+        format("embedded-opentype"),
+      url("/assets/fonts/dm-sans/dmsans-regular-webfont.woff") format("woff"),
+      url("/assets/fonts/dm-sans/dmsans-regular-webfont.ttf") format("truetype");
+    /* Safari, Android, iOS */
+  }
+
+  @font-face {
+    font-family: "DM-Sans";
+
+    font-weight: 500;
+    src: url("/assets/fonts/dm-sans/dmsans-medium-webfont.eot");
+    src: url("/assets/fonts/dm-sans/dmsans-medium-webfont.eot?#iefix")
+        format("embedded-opentype"),
+      url("/assets/fonts/dm-sans/dmsans-medium-webfont.woff") format("woff"),
+      url("/assets/fonts/dm-sans/dmsans-medium-webfont.ttf") format("truetype");
+    /* Safari, Android, iOS */
+  }
+
+  @font-face {
+    font-family: "DM-Sans";
+
+    font-weight: 700;
+    src: url("/assets/fonts/dm-sans/dmsans-bold-webfont.eot");
+    src: url("/assets/fonts/dm-sans/dmsans-bold-webfont.eot?#iefix")
+        format("embedded-opentype"),
+      url("/assets/fonts/dm-sans/dmsans-bold-webfont.woff") format("woff"),
+      url("/assets/fonts/dm-sans/dmsans-bold-webfont.ttf") format("truetype");
+    /* Safari, Android, iOS */
+  }
+
+  @font-face {
+    font-family: "Manrope";
+    font-weight: 400;
+    src: url("/assets/fonts/manrope/Manrope-Regular.eot");
+    src: url("/assets/fonts/manrope/Manrope-Regular.eot?#iefix")
+        format("embedded-opentype"),
+      url("/assets/fonts/manrope/Manrope-Regular.woff") format("woff"),
+      url("/assets/fonts/manrope/Manrope-Regular.ttf") format("truetype");
+    /* Safari, Android, iOS */
+  }
+
+  @font-face {
+    font-family: "Manrope";
+    font-weight: 500;
+    src: url("/assets/fonts/manrope/Manrope-Semibold.eot");
+    src: url("/assets/fonts/manrope/Manrope-Semibold.eot?#iefix")
+        format("embedded-opentype"),
+      url("/assets/fonts/manrope/Manrope-Semibold.woff") format("woff"),
+      url("/assets/fonts/manrope/Manrope-Semibold.ttf") format("truetype");
+    /* Safari, Android, iOS */
+  }
+
+  @font-face {
+    font-family: "Manrope";
+    font-weight: 700;
+    src: url("/assets/fonts/manrope/Manrope-Bold.eot");
+    src: url("/assets/fonts/manrope/Manrope-Bold.eot?#iefix")
+        format("embedded-opentype"),
+      url("/assets/fonts/manrope/Manrope-Bold.woff") format("woff"),
+      url("/assets/fonts/manrope/Manrope-Bold.ttf") format("truetype");
+    /* Safari, Android, iOS */
+  }
+}

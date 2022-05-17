@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "check": "npm run format && npm run eslint",
-    "eslint": "eslint --ext .jsx,.js src/components/ src/pages/",
+    "eslint": "eslint --ext .jsx,.js components/ pages/",
     "format": "prettier -w . !.next/**",
     "build:dev": "cross-env ANALYZE=true next build",
     "build:prod": "next build",
@@ -14,14 +14,15 @@
   "dependencies": {
     "@next/bundle-analyzer": "^12.1.6",
     "@reduxjs/toolkit": "^1.7.1",
+    "firebase": "^9.8.1",
     "next": "12.1.6",
     "next-compose-plugins": "^2.2.1",
     "next-redux-wrapper": "^7.0.5",
     "prop-types": "15.7.2",
     "react": "18.1.0",
     "react-dom": "18.1.0",
-    "react-redux": "^7.2.6",
-    "redux": "^4.1.2"
+    "react-firebase-hooks": "^5.0.3",
+    "react-redux": "^7.2.6"
   },
   "devDependencies": {
     "eslint": "8.14.0",
