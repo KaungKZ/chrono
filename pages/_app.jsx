@@ -5,6 +5,8 @@ import { Provider } from "react-redux";
 import { store } from "../redux/store";
 import Layout from "../components/helpers/Layout";
 
+// this is testing
+
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -15,7 +17,7 @@ function MyApp({ Component, pageProps }) {
       </Provider>
     </>
   );
-}
+};
 
 MyApp.propTypes = {
   Component: PropTypes.elementType.isRequired,
